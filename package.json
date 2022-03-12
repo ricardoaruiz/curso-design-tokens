@@ -1,0 +1,14 @@
+{
+  "name": "design-tokens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ricardo Ruiz",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf build & style-dictionary build"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "style-dictionary": "^3.7.0"
+  }
+}
