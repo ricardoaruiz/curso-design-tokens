@@ -57,18 +57,16 @@ const getBrandsJsonTokens = () => {
             'js': {
                 transformGroup: 'js',
                 buildPath: `${FOLDERS.DIST_FOLDER}/${brand}/js/`,
-                files: [{
-                    destination: `${fileName}.js`,
-                    format: 'javascript/es6'
-                }]
-            },
-            'ts-declarations': {
-                transformGroup: 'js',
-                buildPath: `${FOLDERS.DIST_FOLDER}/${brand}/js/`,
-                files: [{
-                    destination: `${fileName}.d.ts`,
-                    format: 'typescript/es6-declarations'
-                }]
+                files: [
+                    {
+                        destination: `${fileName}.js`,
+                        format: 'javascript/es6'
+                    },
+                    {
+                        format: 'typescript/es6-declarations',
+                        destination: `${fileName}.d.ts`
+                    }
+                ]
             }
         } 
     }
