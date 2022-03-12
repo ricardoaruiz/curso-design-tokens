@@ -5,7 +5,7 @@
   "author": "Ricardo Ruiz",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf build & style-dictionary build"
+    "build": "rimraf dist & node src/build.js"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
