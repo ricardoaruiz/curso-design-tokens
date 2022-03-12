@@ -1,0 +1,10 @@
+{
+    "color": {
+        "brand": {
+            "pure": { "value": "#3A8BFF" },
+            "01": { "value": "#D8E7FF" },
+            "02": { "value": "#0088FF" },
+            "03": { "value": "#003F99" }
+        }
+    }
+}

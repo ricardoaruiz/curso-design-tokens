@@ -1,0 +1,10 @@
+{
+    "color": {
+        "feedback": {
+            "warning-pure": { "value": "#C99EFA" },
+            "warning-01": { "value": "#D9BBF8" },
+            "warning-02": { "value": "#AE6EF7" },
+            "warning-03": { "value": "#6119B2" }
+        }
+    }
+}
